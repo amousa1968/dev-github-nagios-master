@@ -1,0 +1,25 @@
+machine:
+  services:
+    - linuxvm-server
+
+checkout:
+  post:
+    - git clone -b master git@sdlc6095.labs.teradata.com:am255098/nagios-exchange.git ~/ci
+
+dependencies:
+  cache_directories:
+    - ~/.cache/pip
+    - ~/.apt-cache
+  override:
+    - ~/ci/.circle/dependencies
+
+test:
+  override:
+    - ~/ci/.circle/test
+
+deployment:
+  index:
+    branch: master
+    owner: Teradata-CI
+    commands:
+      - ~/ci/.circle/deployment

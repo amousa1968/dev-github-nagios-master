@@ -1,0 +1,9 @@
+---
+  # dev-github credentials. you can either use username/password combo or specify an API key or unauthed.
+  dev-github_api_key: ""
+  dev-github_username: ""
+  dev-github_password: ""
+  dev-github_api_base_url: "https://localhost/api/v1/"
+  dev-github_auth_base_url: "https://localhost/auth/v1/"
+  unauthed: False
+  ssl_verify: False
