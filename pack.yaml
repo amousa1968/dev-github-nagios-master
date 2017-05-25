@@ -6,6 +6,4 @@ keywords:
   - nagios
   - monitoring
   - alerting
-version : 0.2.0
-author : StackStorm, Inc.
-email : info@stackstorm.com
+version : 1.0.0
