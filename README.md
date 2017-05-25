@@ -58,3 +58,4 @@ notifications to dev_github. This trigger type is then referenced in dev_github 
    python dev_githubservice_handler.py dev_githubservice_handler.yaml 44534 3 WARNING HARD "/var/log" 4 host-name --verbose
    ```
 # nagios-exchange
+# nagios-exchange
